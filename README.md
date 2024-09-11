@@ -40,7 +40,7 @@ To complete a controls and compliance checklist and determine which best practic
 
 ---
 
-##Current Assets
+### Current Assets
 --
 Assets managed by the IT Department include:
 ● On-premises equipment for in-office business needs
@@ -62,12 +62,12 @@ monitoring
 
 Does Botium Toys currently have this control in place?
 
-| Yes / No / ? | Control | Explanation |
+| Yes / No /  | Control | Explanation |
 | :---: | :---: | :--- |
 | No | Least Privilige | The employees have access to customer data. This has to be changed to reduce the risk of breach. |
 | No | Disaster Recovery Plan | There is no plan for handling disasters. Implementing this ensures business continuity. |
 | Yes | Firewall | A firewall is in place, blocking traffic based on defined security rules. |
-| ? | Password policies | A weak password policy exists, posing a risk to identity management. |
+| No | Password policies | A weak password policy exists, posing a risk to identity management. |
 | Yes | Antivirus | The antivirus software is active and monitored regularly by the IT team. |
 | No | Backups | There is no backup system, which could result in data loss in case of a breach. |
 | No | Encryption | Encryption has not been implemented for protecting sensitive data. |
@@ -84,7 +84,7 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
 
-| Yes / No / ? | Best Practice | Explanation |
+| Yes / No / | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | Authorized users can access customer credit card info | Employees have access to cardholder data, which is a violation of PCI DSS. |
 | No | Credit card information is stored securely | Cardholder data is not encrypted, violating PCI DSS standards. |
@@ -92,14 +92,14 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 ### GDPR Compliance
 
-| Yes / No / ? | Best Practice | Explanation |
+| Yes / No / | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | EU customers’ data is kept secure | The company does not comply with GDPR standards, putting them at risk of fines. |
 | Yes | Privacy policies are enforced | Privacy policies are in place and maintained properly among employees. |
 
 ### System and Organizations Controls
 
-| Yes / No / ? | Best Practice | Explanation |
+| Yes / No / | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | User access policies are established | Employees have access to all data, and there is no established access policy. |
 | Yes | Data integrity is consistent, complete, and accurate | Data integrity controls are in place. |
