@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this project was to perform an internal IT audit for **Botium Toys** to assess their current security posture, identify risks, and ensure compliance with U.S. and international regulations (e.g., PCI DSS, GDPR). The audit was guided by the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)** to improve the security of critical assets, systems, and networks.
+The projects objective was to conduct an internal IT audit for **Botium Toys** in order to assess their current standing security posture, ensure compliance with U.S. and international regulations and identify any risks. The audit was conducted following the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF** in order to improve the security of critical assets, systems, and networks to a modern standard.
 
 ---
 
@@ -36,7 +36,7 @@ The entire security program at **Botium Toys** was assessed, which included thei
 
 ### Goals
 
-To complete a controls and compliance checklist and determine which best practices needed to be implemented to improve the security posture of **Botium Toys**.
+To assess and complete a controls and compliance checklists that determins which practices need to best be implemented to improve the security posture of **Botium toys**
 
 ---
 
@@ -72,17 +72,17 @@ Does Botium Toys currently have this control in place?
 
 | Yes / No /  | Control | Explanation |
 | :---: | :---: | :--- |
-| No | Least Privilige | The employees have access to customer data. This has to be changed to reduce the risk of breach. |
-| No | Disaster Recovery Plan | There is no plan for handling disasters. Implementing this ensures business continuity. |
-| Yes | Firewall | A firewall is in place, blocking traffic based on defined security rules. |
-| No | Password policies | A weak password policy exists, posing a risk to identity management. |
+| No | Least Privilege | Least Privilege is not practiced, employees have access to all information in organization's database. Needs to be limited to prevent Breach. |
+| No | Disaster Recovery Plans | In order to ensure business continuity, the organization needs to implement Disaster Recovery Plans. None currently present |
+| No | Password policies |Password policy does exist but is NOT in line with current password complexity requirements. |
+| Yes | Firewall | Firewall is properly installed with correct set of definitions and rules for filtering |
 | Yes | Antivirus | The antivirus software is active and monitored regularly by the IT team. |
-| No | Backups | There is no backup system, which could result in data loss in case of a breach. |
-| No | Encryption | Encryption has not been implemented for protecting sensitive data. |
-| No | IDS | The company lacks an IDS to detect potential intrusions. |
-| Yes | Storefront | The store has physical security controls like locks and surveillance. |
-| Yes | CCTV | Surveillance cameras are working and functioning. |
-| Yes | Fire detection | Fire detection systems are in place but need regular maintenance. |
+| No | Backups | Backup systems, much like disaster recovery plans, are not in place. Need to be set up to ensure business continuity and redundancy.|
+| No | Encryption |No encryption has been set up. This is a massive security concern, especially for securing confidential customer data.|
+| No | IDS | No intrusion detection system has been installed.|
+| Yes | Storefront |Physical locks, CCTV surveillance and fire detection and prevention systems are present.|
+| Yes | CCTV | Yes, Up and running.|
+| Yes | Fire detection | Require maitenance but up and running|
 
 ---
 
@@ -94,24 +94,29 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 | Yes / No / | Best Practice | Explanation |
 | :---: | :---: | :--- |
-| No | Authorized users can access customer credit card info | Employees have access to cardholder data, which is a violation of PCI DSS. |
-| No | Credit card information is stored securely | Cardholder data is not encrypted, violating PCI DSS standards. |
-| No | Encryption is secured | Encryption has not been implemented for sensitive data. |
+| No | Authorized users can access sensitive data such as customers credit card info| A violation of PCI DSS, authorized users can access customer credit card info without proper restrictions. There is no implementation of the least privilege principle. |
+| No | Sensitive Info, such as credit cards, are stored,transmitted, processed and accepted securely| Cardholder data is not encrypted, violating PCI DSS standards. |
+| No | Encryption standards | Encryption has not been implemented for sensitive data. |
+| No | Password management policies | No password management present. |
+
 
 ### GDPR Compliance
 
 | Yes / No / | Best Practice | Explanation |
 | :---: | :---: | :--- |
-| No | EU customers’ data is kept secure | The company does not comply with GDPR standards, putting them at risk of fines. |
-| Yes | Privacy policies are enforced | Privacy policies are in place and maintained properly among employees. |
+| No | Data for E.U Customers is kept private/secure | GDPR standards are not complied with, this places the organization at risk of fines. |
+| Yes | Plan where E.U customers are notified within 72 hours if their data is compromised | Organization has a documented plan to notify E.U customers within 72 hours of a data breach |
+| No |Ensure data is properly classified and inventoried|Assets have been documented and inventoried however, no classifications have been given at this time. |
+| Yes | Enforcement of privary policies| IT members developed policies and procedures for policies and ensure they are enforced. |
 
 ### System and Organizations Controls
 
 | Yes / No / | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | User access policies are established | Employees have access to all data, and there is no established access policy. |
-| Yes | Data integrity is consistent, complete, and accurate | Data integrity controls are in place. |
-| No | Data is only accessible to authorized users | Currently, all employees can access data, violating data protection standards. |
+| No | Sensitive data (PII/SPII) is confidential/private | Encryption is not currenlty used to better ensure PII/SPII confidentiality |
+| Yes | Data integrity is consistent, complete, and accurate | Controls are in place for data integrity |
+| No | Data is only accessible to authorized users | Data protection standards and principals, such as that of least privilege, are not practiced within the organization |
 
 ---
 
@@ -119,11 +124,11 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 After assessing the security posture at **Botium Toys**, several recommendations were made to enhance the protection of sensitive information and ensure compliance with industry standards:
 
-1. **Implement Least Privilege**: Restrict access to customer and sensitive data by applying the least privilege principle.
-2. **Develop a Disaster Recovery Plan**: Create a disaster recovery plan to ensure business continuity in case of system failure or data breach.
-3. **Strengthen Password Policies**: Update password policies to meet current complexity requirements and implement a centralized password management system.
-4. **Implement Encryption**: Encrypt all sensitive data, especially cardholder information, to protect confidentiality and comply with regulations.
-5. **Install Intrusion Detection System (IDS)**: Set up an IDS to detect and respond to unauthorized access or potential attacks.
+1. **Implement Principal of Least Privilege**: Apply the principal of least privilege by restricting access to customer and sensitive data alongside a seperation of duties.
+2. **Development of a Disaster Recovery Plan**: Create a disaster recovery plan to ensure business continuity in case of system failure or data breach.
+3. **Implementation of Modern Password Policies**: Update password policies must be implemented in order to meet current complexity requirements alongside the implementation of a centralized password management system.
+4. **Implement Encryption**:  Sensitive data, especially cardholder information, must be encrupted to protect confidentiality and comply with regulations.
+5. **Install Intrusion Detection System (IDS)**: Installation of an Instrusion detection system will mitigate risk, allow response to unathorized access or attacks.
 
 ---
 
