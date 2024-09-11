@@ -143,7 +143,8 @@ The first step was to identify and document all assets managed by the IT departm
 The IT department conducted a risk assessment, assigning a risk score of 8/10. The lack of proper controls and failure to comply with security regulations contributed to the high score.
 
 ### Step 3: Controls and Compliance Review
-*Ref 3: Compliance Checklist*  
+*Ref 3: Compliance Checklist*  [View Document Template](https://docs.google.com/document/d/10NoXfyE3ZSiHFqiTE0fINL3xdPvTZq0j0VwnFEM0N3g/template/preview#heading=h.87tykp1u0l36)
+
 Using the **NIST CSF** as a guideline, we evaluated the controls and compliance practices currently in place. The audit revealed gaps in encryption, disaster recovery planning, and user access policies.
 
 ### Step 4: Recommendations for Improvement
