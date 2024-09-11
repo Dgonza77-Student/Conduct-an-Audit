@@ -70,7 +70,7 @@ monitoring
 
 Does Botium Toys currently have this control in place?
 
-| Yes / No /  | Control | Explanation |
+| Yes / No | Control | Explanation |
 | :---: | :---: | :--- |
 | No | Least Privilege | Least Privilege is not practiced, employees have access to all information in organization's database. Needs to be limited to prevent Breach. |
 | No | Disaster Recovery Plans | In order to ensure business continuity, the organization needs to implement Disaster Recovery Plans. None currently present |
@@ -92,7 +92,7 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
 
-| Yes / No / | Best Practice | Explanation |
+| Yes / No | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | Authorized users can access sensitive data such as customers credit card info| A violation of PCI DSS, authorized users can access customer credit card info without proper restrictions. There is no implementation of the least privilege principle. |
 | No | Sensitive Info, such as credit cards, are stored,transmitted, processed and accepted securely| Cardholder data is not encrypted, violating PCI DSS standards. |
@@ -102,7 +102,7 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 ### GDPR Compliance
 
-| Yes / No / | Best Practice | Explanation |
+| Yes / No | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | Data for E.U Customers is kept private/secure | GDPR standards are not complied with, this places the organization at risk of fines. |
 | Yes | Plan where E.U customers are notified within 72 hours if their data is compromised | Organization has a documented plan to notify E.U customers within 72 hours of a data breach |
@@ -111,12 +111,12 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 ### System and Organizations Controls
 
-| Yes / No / | Best Practice | Explanation |
+| Yes / No | Best Practice | Explanation |
 | :---: | :---: | :--- |
 | No | User access policies are established | Employees have access to all data, and there is no established access policy. |
 | No | Sensitive data (PII/SPII) is confidential/private | Encryption is not currenlty used to better ensure PII/SPII confidentiality |
 | Yes | Data integrity is consistent, complete, and accurate | Controls are in place for data integrity |
-| No | Data is only accessible to authorized users | Data protection standards and principals, such as that of least privilege, are not practiced within the organization |
+| No | Data is only accessible to authorized users | Data protection standards and principle, such as that of least privilege, are not practiced within the organization |
 
 ---
 
@@ -124,33 +124,14 @@ Does Botium Toys currently adhere to this compliance best practice?
 
 After assessing the security posture at **Botium Toys**, several recommendations were made to enhance the protection of sensitive information and ensure compliance with industry standards:
 
-1. **Implement Principal of Least Privilege**: Apply the principal of least privilege by restricting access to customer and sensitive data alongside a seperation of duties.
+1. **Implement Principle of Least Privilege**: Apply the principle of least privilege by restricting access to customer and sensitive data alongside a separation of duties.
 2. **Development of a Disaster Recovery Plan**: Create a disaster recovery plan to ensure business continuity in case of system failure or data breach.
 3. **Implementation of Modern Password Policies**: Update password policies must be implemented in order to meet current complexity requirements alongside the implementation of a centralized password management system.
-4. **Implement Encryption**:  Sensitive data, especially cardholder information, must be encrupted to protect confidentiality and comply with regulations.
+4. **Implement Encryption**:  Sensitive data, especially cardholder information, must be encrypted to protect confidentiality and comply with regulations.
 5. **Install Intrusion Detection System (IDS)**: Installation of an Instrusion detection system will mitigate risk, allow response to unathorized access or attacks.
 
 ---
 
-## Steps
 
-### Step 1: Asset Identification
-*Ref 1: Asset List*  
-The first step was to identify and document all assets managed by the IT department. This included on-premises equipment, employee devices, internal systems, and networks.
-
-### Step 2: Risk Assessment
-*Ref 2: Risk Assessment Report*  
-The IT department conducted a risk assessment, assigning a risk score of 8/10. The lack of proper controls and failure to comply with security regulations contributed to the high score.
-
-### Step 3: Controls and Compliance Review
-*Ref 3: Compliance Checklist*  [View Document Template](https://docs.google.com/document/d/10NoXfyE3ZSiHFqiTE0fINL3xdPvTZq0j0VwnFEM0N3g/template/preview#heading=h.87tykp1u0l36)
-
-Using the **NIST CSF** as a guideline, we evaluated the controls and compliance practices currently in place. The audit revealed gaps in encryption, disaster recovery planning, and user access policies.
-
-### Step 4: Recommendations for Improvement
-*Ref 4: Final Recommendations*  
-Based on the audit, we recommended implementing encryption, least privilege access, and an intrusion detection system (IDS), as well as improving the password policies and backup strategy.
-
----
 
 
