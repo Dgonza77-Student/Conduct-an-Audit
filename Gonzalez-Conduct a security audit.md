@@ -2,7 +2,7 @@
 
 ## Objective
 
-The projects objective was to conduct an internal IT audit for **Botium Toys** in order to assess their current standing security posture, ensure compliance with U.S. and international regulations and identify any risks. The audit was conducted following the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF** in order to improve the security of critical assets, systems, and networks to a modern standard.
+The projects objective was to conduct an internal IT audit for **Botium Toys** in order to assess their current standing security posture, ensure compliance with U.S. and international regulations and identify any risks. The audit was conducted following the **National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)** in order to improve the security of critical assets, systems, and networks to a modern standard.
 
 ---
 
